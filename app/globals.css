@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* ------------------------------
+   1) THEME VARIABLES
+-------------------------------- */
+:root {
+  --brand-primary: #0ea5e9;
+  --brand-secondary: #6366f1;
+  --brand-accent: #facc15;
+  --brand-muted: #94a3b8;
+  --brand-background: #f8fafc;
+  --brand-dark: #0f172a;
+
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+  --font-mono: "Fira Code", monospace;
+
+  --shadow-card: 0 4px 14px rgba(0,0,0,0.1);
+  --shadow-glow: 0 0 20px rgba(30,64,175,0.5);
+
+  --radius-2xl: 1.5rem;
+}
+
+.dark {
+  --brand-background: var(--brand-dark);
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--brand-background);
+}
+
+/* ------------------------------
+   2) CUSTOM UTILITIES
+-------------------------------- */
+@layer utilities {
+  .text-brand-primary { color: var(--brand-primary); }
+  .text-brand-secondary { color: var(--brand-secondary); }
+  .text-brand-accent { color: var(--brand-accent); }
+  .text-brand-muted { color: var(--brand-muted); }
+
+  .bg-brand-primary { background-color: var(--brand-primary); }
+  .bg-brand-secondary { background-color: var(--brand-secondary); }
+  .bg-brand-accent { background-color: var(--brand-accent); }
+  .bg-brand-muted { background-color: var(--brand-muted); }
+  .bg-brand-background { background-color: var(--brand-background); }
+
+  .border-brand-primary { border-color: var(--brand-primary); }
+  .border-brand-muted { border-color: var(--brand-muted); }
+
+  .font-heading { font-family: var(--font-heading); }
+  .font-mono { font-family: var(--font-mono); }
+
+  .shadow-card { box-shadow: var(--shadow-card); }
+  .shadow-glow { box-shadow: var(--shadow-glow); }
+
+  .rounded-2xl { border-radius: var(--radius-2xl); }
+}
