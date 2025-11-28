@@ -20,7 +20,7 @@ function ContactComponent() {
     return (
         <>
             {/* Contact form */}
-            <div className="rounded-3xl border border-gray-100 bg-white p-6 md:p-8 shadow-sm ring-1 ring-black/5">
+            <div className="rounded-3xl border border-gray-100 bg-white p-6 md:p-8 ring-1 ring-black/5">
                 <h3 className="text-xl font-semibold text-gray-900">Send a message</h3>
                 <form onSubmit={handleContactSubmit} className="mt-6 space-y-5" noValidate>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

@@ -21,15 +21,15 @@ export const Header = () => {
           </div>
           
           <div className="hidden md:flex space-x-8">
-            <button onClick={() => scrollToSection("home")} className="font-medium hover:text-brand-primary transition-colors">Home</button>
-            <button onClick={() => scrollToSection("about")} className="font-medium hover:text-brand-primary transition-colors">About</button>
-            <button onClick={() => scrollToSection("services")} className="font-medium hover:text-brand-primary transition-colors">Services</button>
-            <button onClick={() => scrollToSection("projects")} className="font-medium hover:text-brand-primary transition-colors">Projects</button>
-            <button onClick={() => scrollToSection("contact")} className="font-medium hover:text-brand-primary transition-colors">Contact</button>
+            <button onClick={() => scrollToSection("home")} className="font-medium hover:text-brand-primary transition-colors cursor-pointer">Home</button>
+            <button onClick={() => scrollToSection("about")} className="font-medium hover:text-brand-primary transition-colors cursor-pointer">About</button>
+            <button onClick={() => scrollToSection("services")} className="font-medium hover:text-brand-primary transition-colors cursor-pointer">Services</button>
+            <button onClick={() => scrollToSection("projects")} className="font-medium hover:text-brand-primary transition-colors cursor-pointer">Projects</button>
+            <button onClick={() => scrollToSection("contact")} className="font-medium hover:text-brand-primary transition-colors cursor-pointer">Contact</button>
           </div>
           
           <div>
-            <button onClick={() => scrollToSection("contact")} className="py-2 px-4 bg-brand-primary text-white rounded-full hover:bg-opacity-90 transition-colors">
+            <button onClick={() => scrollToSection("contact")} className="py-2 px-4 bg-brand-primary text-white rounded-full hover:bg-opacity-90 transition-colors cursor-pointer">
               Hire Me
             </button>
           </div>

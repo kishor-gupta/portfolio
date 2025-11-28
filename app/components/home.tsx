@@ -10,7 +10,7 @@ export const Home = () => {
 
   return (
     <div className="container mx-auto px-4 py-16 md:py-24">
-      
+
       <div id="home" className="flex flex-col lg:flex-row items-center gap-10">
         <div className="lg:w-1/2 space-y-6">
           <div>
@@ -62,16 +62,16 @@ export const Home = () => {
         </div>
 
         <div className="lg:w-1/2 relative">
-          <div className="relative flex justify-center items-center border p-2 rounded-full shadow-lg">
+          <div className="relative flex justify-center items-center p-2 rounded-full shadow-glow">
             <Image
-              src="/images/icon.png"
+              src="/61230727.png"
               alt="Kishor Gupta portrait"
               width={400}
               height={400}
               className="rounded-full w-full h-auto object-cover border overflow-hidden"
             />
 
-            <div className="absolute -right-4 top-10 bg-brand-secondary text-white p-3 rounded-xl transform rotate-3 shadow-lg">
+            <div className="absolute -right-4 top-10 bg-brand-secondary text-white p-3 rounded-xl transform rotate-3 shadow-glow">
               <div className="text-center">
                 <p className="font-heading font-bold text-xl">Kishor Gupta</p>
                 <p className="text-sm">❤️ JavaScript Wizard</p>
@@ -563,7 +563,7 @@ export const Home = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Contact details */}
-            <div className="rounded-3xl border border-gray-100 bg-white p-6 md:p-8 shadow-sm ring-1 ring-black/5">
+            <div className="rounded-3xl border border-gray-100 bg-white p-6 md:p-8 ring-1 ring-black/5">
               <h3 className="text-xl font-semibold text-gray-900">Reach me directly</h3>
               <p className="mt-2 text-gray-600">Prefer email or a quick call? I’m happy to connect.</p>
 
